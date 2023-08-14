@@ -291,7 +291,7 @@ export default function MyApp() {
           <br></br>
           <br></br>
           <br></br>
-          <img src={`data:image/jpeg;base64,${imageText}`} alt="Selected Image" />
+          <img src={`data:image/jpeg;base64,${imageText}`} alt="To display Selected Item" />
           <br></br>
           <br></br>
           <br></br>
