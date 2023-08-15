@@ -15,7 +15,7 @@ export default function MyApp() {
         "miniAppId": "SEWRFSD"
       }
     });
-    MAJSBridge("maGetMobileAgent", request, "maGetMobilAgentCallBack");
+    MAJSBridge("maGetMobileAgent", request, "maGetMobileAgentCallBack");
   }
 
   window.maGetMobileAgentCallBack = (response) => {
