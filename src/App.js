@@ -56,7 +56,7 @@ export default function MyApp() {
   function handleSelectCameraPhotoClick() {
     const request = JSON.stringify({
       "request": {
-        "requestCode": 4563784,
+        "requestCode": "4563784",
         "title": "string",
         "isLandscapeMode": false
       }
@@ -72,7 +72,7 @@ export default function MyApp() {
   function handleSelectGalleryPhotoClick() {
     const request = JSON.stringify({
       "request": {
-        "requestCode": 12345,
+        "requestCode": "12345",
         "title": "string",
         "isLandscapeMode": false
       }
