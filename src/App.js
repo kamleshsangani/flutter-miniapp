@@ -67,6 +67,9 @@ export default function MyApp() {
   window.maSelectCameraPhotoCallBack = (response) => {
     console.log(response);
     setResultText(response);
+    const obj = JSON.parse(response);
+    console.log("Request code: " + obj.data.requestCode);
+    setImageText(obj.data.base64)
   };
 
   function handleSelectGalleryPhotoClick() {
