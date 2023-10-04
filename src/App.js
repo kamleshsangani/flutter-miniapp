@@ -53,6 +53,21 @@ export default function MyApp() {
     setResultText(response);
   };
 
+  function handleRefreshData() {
+    const request = JSON.stringify({
+      "metadata": {
+        "version": 1.0,
+        "miniAppId": "SEWRFSD"
+      }
+    });
+    MAJSBridge("maRefreshData", request, "maRefreshDataCallBack");
+  }
+
+  window.maRefreshDataCallBack = (response) => {
+    console.log(response);
+    setResultText(response);
+  };
+
   function handleSelectCameraPhotoClick() {
     const request = JSON.stringify({
       "request": {
@@ -334,6 +349,12 @@ export default function MyApp() {
           <br></br>
 
           <GradientButton onClick={() => handleRefreshAuthCodeClick()}>Refresh Auth Code
+          </GradientButton>
+          <br></br>
+          <br></br>
+          <br></br>
+
+          <GradientButton onClick={() => handleRefreshData()}>Refresh Data
           </GradientButton>
           <br></br>
           <br></br>
