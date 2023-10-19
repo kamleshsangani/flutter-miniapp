@@ -451,7 +451,7 @@ export default function MyApp() {
           <br></br>
 
           <p>
-          <a href="itms-services://?action=download-manifest&url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fcompyo.appspot.com%2Fo%2FArabiNext%252Fmanifest.plist%3Falt%3Dmedia%26token%3D07e96979-dcc2-4b29-bc95-6b0718571a8a%26_gl%3D1%2A158n1si%2A_ga%2ANjU0NDgxNDg0LjE2Njg0MjIzNjg.%2A_ga_CW55HF8NVT%2AMTY5NzcyODA3MC41MC4xLjE2OTc3Mjg0MDcuNTUuMC4w" id="text">Download ArabiNext2</a>
+          <a href="itms-services://?action=download-manifest&url=https://firebasestorage.googleapis.com/v0/b/compyo.appspot.com/o/ArabiNext%2Fmanifest.plist?alt=media&token=590e3a09-384b-4f62-b645-d87fcf63dc92&_gl=1*z2ti5*_ga*NjU0NDgxNDg0LjE2Njg0MjIzNjg.*_ga_CW55HF8NVT*MTY5NzczMzMzNS41MS4xLjE2OTc3MzQyOTMuMTcuMC4w" id="text">Download ArabiNext3</a>
           </p>
           <br></br>
           <br></br>
