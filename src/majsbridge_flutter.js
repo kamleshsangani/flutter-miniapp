@@ -1,9 +1,9 @@
 
 export default function MAJSBridge (functionName, requestBody, callbackName) {
     var javaScriptMessage = JSON.stringify({
-        functionName: functionName,
-        body: requestBody,
-        callbackName: callbackName
+        function: functionName,
+        data: requestBody,
+        functionCallback: callbackName
     });
     window.maJSBridge.postMessage(javaScriptMessage);
 }
